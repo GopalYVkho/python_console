@@ -94,6 +94,6 @@ while True:
     else:
         user_one_balance=bank_creation(user_one)
         user_one_bank=Bank(user_one.name,user_one.age,user_one_balance)
-        flag=options(user_two)
+        flag=options(user_one)
         if flag == False:
             break
